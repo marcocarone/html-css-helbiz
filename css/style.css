@@ -1,6 +1,7 @@
 html {
   font-size: 10px;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
@@ -10,14 +11,17 @@ body {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 .menu_inline {
   list-style: none;
 }
+
 .menu_inline li {
   display: inline;
   margin-right: 10px;
   text-transform: uppercase;
 }
+
 .menu_inline li a {
   text-decoration: none;
   color: black;
@@ -28,6 +32,7 @@ body {
 header {
   background-color: white;
 }
+
 .header-top {
   position: fixed;
   top: 0;
@@ -37,18 +42,22 @@ header {
   line-height: 80px;
   background-color: white;
 }
+
 .header_logo {
   vertical-align: middle;
   width: 80px;
 }
-.header_menu li{
+
+.header_menu li {
   text-align: left;
   margin-right: 25px;
 }
+
 .header_menu_lang li:not(:last-child) {
   border-right: 1px solid black;
   padding-right: 10px;
 }
+
 .ico_hamburger {
   float: right;
   font-size: 3.7em;
@@ -59,6 +68,7 @@ header {
 .lg_display_none {
   display: none;
 }
+
 .lg_display_block {
   display: block;
 }
@@ -74,6 +84,7 @@ header {
   overflow: hidden;
   z-index: 0;
 }
+
 .video-container-2 {
   position: absolute;
   top: 0;
@@ -91,10 +102,12 @@ header {
   color: white;
   z-index: 2;
 }
+
 .jumbo_text h1 {
   font-size: 4.3em;
   margin-bottom: 1rem;
 }
+
 .jumbo_text p {
   font-size: 1.5em;
   margin-bottom: 1.8rem;
@@ -104,9 +117,7 @@ header {
   padding: 0 7px;
 }
 
-
 /* INIZIO MAIN */
-
 .bike {
   background-color: #fafafa;
   padding: 60px 0;
@@ -121,14 +132,18 @@ header {
   text-decoration: none;
   color: #0070c8;
 }
+
 .link-prod:hover {
   text-decoration: underline;
 }
 
+
+
 .text_v_center {
-  line-height: 30px;
-  vertical-align: 30px;
+  line-height: 50px;
+  vertical-align: middle;
 }
+
 .span {
   font-size: 20px;
   color: #0070c8;
@@ -140,32 +155,132 @@ header {
 }
 
 .m-tb {
-    margin: 70px 0;
+  margin: 70px 0;
 }
 
 .m {
   margin: 20px;
 }
 
-
 .font_1_8 {
   font-size: 1.8em;
 }
+.p-20px {
+  padding: 20px;
+}
+
+
+/* MAIN SLIDER */
+
+.bg-slider {
+  background-image: url(../img/HelbizBanner.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+  margin-bottom: 260px;
+
+}
+.container-slider {
+  height: 760px;
+  text-align: center;
+}
+
+.container-slider img {
+  height: 770px;
+  padding-top: 160px;
+}
+
+.container-slider h2 {
+  padding-top: 550px;
+  padding-left: 20px;
+  font-size: 3.5em;
+}
+
+.container-slider h3 {
+  padding-top: 550px;
+  padding-left: 40px;
+  font-size: 2.4em;
+}
+
+.container-slider p {
+  padding-top: 20px;
+  padding-left: 40px;
+  font-size: 1.5em;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.box {
+  height: 500px;
+  background-image: url(../img/ScooterHelbiz-2400.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#box  {
+
+  color: #ffffff;
+
+
+
+}
+#box h2 {
+  font-size: 4.4em;
+
+}
+
+#box p {
+  font-size: 1.8em;
+
+}
+
+.box-1-p {
+  padding-top: 180px;
+  padding-left: 40px;
+  padding-right: 70px;
+}
+
+.link-prod-2 {
+  text-decoration: none;
+  color: #ffffff;
+}
+.link-prod-2:hover {
+  text-decoration: underline;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.span-2 {
+  font-size: 20px;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
     padding: 0 2%;
   }
+
   .md_display_block {
     display: block;
   }
+
   .md_display_none {
     display: none;
   }
+
   .jumbo_text a {
     width: calc(100% / 4);
     display: inline-block;
   }
+
   .jumbo_text a img {
     width: 100%;
   }
@@ -175,32 +290,53 @@ header {
   body {
     font-size: 8px;
   }
+
   .xs_display_block {
     display: block;
   }
+
   .xs_display_none {
     display: none;
   }
+
   .header-top {
     padding: 0 2%;
   }
+
   .jumbo_text h1 {
     font-size: 3.5em;
     margin-bottom: 1rem;
   }
+
   .jumbo_text p {
     font-size: 2em;
     margin-bottom: 1.8rem;
   }
+
   .jumbo_text a {
     width: calc(100% / 3);
     display: inline-block;
   }
+
   .jumbo_text a img {
     width: 100%;
   }
 
   .m-tb {
-      margin: 10px 0;
+    margin: 10px 0;
   }
+
+  .container-slider {
+    text-align: center;
+
+
+  }
+  .container-slider img {
+    width: 330px;
+    padding-top: 170px;
+
+
+  }
+
+
 }
