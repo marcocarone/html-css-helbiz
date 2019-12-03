@@ -356,6 +356,10 @@ header {
   list-style: none;
 }
 
+.logo-footer{
+  padding-left: 20px;
+}
+
 .p-footer {
   padding: 90px 0 60px 0;
   border-bottom: 1px solid rgba(68, 68, 68, 0.87);
@@ -365,6 +369,7 @@ header {
   text-align: left;
   color: #ffffff;
   font-size: 2em;
+  padding-left: 20px;
 }
 
 .white-link {
@@ -477,5 +482,6 @@ header {
 
   .bg-footer h3 {
     padding-top: 20px;
+
   }
 }
