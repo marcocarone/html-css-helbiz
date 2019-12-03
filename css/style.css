@@ -257,12 +257,11 @@ header {
 
 .box-2 {
   height: 600px;
-position: relative;
-background: linear-gradient(180deg, rgba(64,85,104,1) 0%, rgba(37,48,57,1) 57%);
+  position: relative;
+  background: linear-gradient(180deg, rgba(64, 85, 104, 1) 0%, rgba(37, 48, 57, 1) 57%);
   margin: 40px 0;
   padding-top: 50px;
 }
-
 
 .box-2 img {
   position: absolute;
@@ -271,7 +270,6 @@ background: linear-gradient(180deg, rgba(64,85,104,1) 0%, rgba(37,48,57,1) 57%);
   height: 300px;
   transform: translateX(-50%);
 }
-
 
 .box-3 {
   height: 600px;
@@ -290,8 +288,101 @@ background: linear-gradient(180deg, rgba(64,85,104,1) 0%, rgba(37,48,57,1) 57%);
 .m-l-20 {
   margin-left: 20px;
 }
+
 .m-r-20 {
   margin-right: 20px;
+}
+
+.social {
+  position: relative;
+  background-image: url(../img/Social-Banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 420px;
+  margin-bottom: 40px;
+  background-size: cover;
+}
+
+.container-social {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 50px 120px;
+}
+
+.container-social h2 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+}
+
+.container-social i {
+  font-size: 3.2em;
+  padding-right: 13px;
+}
+
+/* INIZIO FOOTER */
+.bg-footer {
+  background-color: #000000;
+  padding: 20px 0;
+}
+
+.bg-footer h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  font-size: 1.6em;
+}
+
+.link-footer li a {
+  background: none;
+  line-height: 30px;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.link-footer-color li a {
+  color: #696969;
+}
+
+.link-footer-color-2 li a {
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.link-footer li {
+  list-style: none;
+}
+
+.p-footer {
+  padding: 90px 0 60px 0;
+  border-bottom: 1px solid rgba(68, 68, 68, 0.87);
+}
+
+.icon-footer {
+  text-align: left;
+  color: #ffffff;
+  font-size: 2em;
+}
+
+.white-link {
+  color: #ffffff;
+}
+
+.icon-footer i {
+  padding-right: 15px;
+}
+
+.app-icon {
+  border: 1px solid #ffffff;
+  width: 100px;
+  border-radius: 5px;
+}
+
+.p-app a {
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
@@ -370,5 +461,21 @@ background: linear-gradient(180deg, rgba(64,85,104,1) 0%, rgba(37,48,57,1) 57%);
     padding-top: 170px;
     padding-left: 20px;
     padding-right: 20px;
-}
+  }
+
+  .bg-footer img,
+  .logo-footer,
+  .bg-footer h3,
+  .link-footer {
+    text-align: center;
+  }
+
+  .icon-footer {
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .bg-footer h3 {
+    padding-top: 20px;
+  }
 }
