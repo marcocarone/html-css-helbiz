@@ -137,8 +137,6 @@ header {
   text-decoration: underline;
 }
 
-
-
 .text_v_center {
   line-height: 50px;
   vertical-align: middle;
@@ -165,13 +163,12 @@ header {
 .font_1_8 {
   font-size: 1.8em;
 }
+
 .p-20px {
   padding: 20px;
 }
 
-
 /* MAIN SLIDER */
-
 .bg-slider {
   background-image: url(../img/HelbizBanner.jpg);
   height: 500px;
@@ -179,8 +176,8 @@ header {
   background-position: left;
   background-size: cover;
   margin-bottom: 260px;
-
 }
+
 .container-slider {
   height: 760px;
   text-align: center;
@@ -221,33 +218,29 @@ header {
   background-size: cover;
 }
 
-#box  {
-
+#box {
   color: #ffffff;
-
-
-
 }
+
 #box h2 {
   font-size: 4.4em;
-
 }
 
 #box p {
   font-size: 1.8em;
-
 }
 
 .box-1-p {
-  padding-top: 180px;
-  padding-left: 40px;
-  padding-right: 70px;
+  padding-top: 160px;
+  padding-left: 20px;
+  padding-right: 120px;
 }
 
 .link-prod-2 {
   text-decoration: none;
   color: #ffffff;
 }
+
 .link-prod-2:hover {
   text-decoration: underline;
 }
@@ -262,6 +255,44 @@ header {
   padding-left: 10px;
 }
 
+.box-2 {
+  height: 600px;
+position: relative;
+background: linear-gradient(180deg, rgba(64,85,104,1) 0%, rgba(37,48,57,1) 57%);
+  margin: 40px 0;
+  padding-top: 50px;
+}
+
+
+.box-2 img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 300px;
+  transform: translateX(-50%);
+}
+
+
+.box-3 {
+  height: 600px;
+  background-image: url(../img/Cities-1500.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 40px 0;
+  padding-top: 50px;
+}
+
+.p-l-20 {
+  padding-left: 20px;
+}
+
+.m-l-20 {
+  margin-left: 20px;
+}
+.m-r-20 {
+  margin-right: 20px;
+}
 
 @media screen and (max-width: 992px) and (min-width: 768px) {
   .header-top {
@@ -323,20 +354,21 @@ header {
   }
 
   .m-tb {
-    margin: 10px 0;
+    margin: 20px 0;
   }
 
   .container-slider {
     text-align: center;
-
-
   }
+
   .container-slider img {
     width: 330px;
     padding-top: 170px;
-
-
   }
 
-
+  .box-1-p {
+    padding-top: 170px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 }
